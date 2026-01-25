@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { height: 100%; scroll-behavior: smooth; }
+
+body {
+  @apply bg-neutral-950 text-white antialiased;
+  font-family: ui-sans-serif, system-ui, Inter, Segoe UI, Roboto, Arial;
+}
+
+::selection { background: rgba(124, 58, 237, 0.30); }
+
+@layer components {
+  .bg-rwa {
+    background:
+      radial-gradient(1200px 600px at 25% 60%, rgba(124,58,237,0.12), transparent 55%),
+      radial-gradient(900px 500px at 75% 35%, rgba(124,58,237,0.10), transparent 55%),
+      linear-gradient(180deg, rgba(0,0,0,0.85), rgba(0,0,0,0.90));
+  }
+
+  .navlink { @apply text-white/80 hover:text-white transition; }
+
+  .pill {
+    @apply inline-flex items-center rounded-md border border-accent-600/70
+           bg-transparent px-3 py-1 text-sm text-white/90;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg
+           bg-accent-600 px-5 py-3 font-medium text-white
+           hover:bg-accent-700 transition;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg
+           border border-accent-600 px-5 py-3 font-medium text-accent-400
+           hover:bg-accent-600/10 transition;
+  }
+
+  .card {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur
+           shadow-[0_0_0_1px_rgba(255,255,255,0.04)] transition;
+  }
+
+  .term {
+    @apply rounded-2xl border border-white/10 bg-black/60 backdrop-blur shadow-glow;
+  }
+
+  .term-top {
+    @apply flex items-center gap-2 rounded-t-2xl bg-white/10 px-4 py-3 border-b border-white/10;
+  }
+
+  .dot { @apply h-3 w-3 rounded-full; }
+
+  .prompt { color: #00ff7f; }
+  .cursor { @apply inline-block h-5 w-2 bg-accent-600 align-middle; }
+}
