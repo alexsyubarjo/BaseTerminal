@@ -1,4 +1,4 @@
-# sec-rwa-terminal
+# sec terminal
 
 Portofolio Security bertema terminal (Next.js App Router + Tailwind).
 
