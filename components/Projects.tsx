@@ -18,19 +18,7 @@ export default function Projects() {
               ))}
             </div>
 
-            <div className="mt-10 flex items-center justify-between text-accent-600">
-              {p.demo ? (
-                <a className="hover:underline" href={p.demo} target="_blank" rel="noreferrer">
-                  Lihat Demo
-                </a>
-              ) : <span />}
-
-              {p.github ? (
-                <a className="inline-flex items-center gap-2 hover:underline" href={p.github} target="_blank" rel="noreferrer">
-                  GitHub <ExternalLink size={18} />
-                </a>
-              ) : null}
-            </div>
+           
           </div>
         ))}
       </div>
