@@ -1,5 +1,5 @@
 export const brand = {
-  logo: "<SEC/>",
+  logo: "<Nanda Sec/>",
   nav: [
     { href: "#home", label: "Beranda" },
     { href: "#about", label: "Tentang Saya" },
@@ -12,20 +12,20 @@ export const brand = {
 
 export const hero = {
   terminalTitle: "bash ~ security-dev",
-  whoami: "security_operator",
+  whoami: "Cyber Security",
   info: {
-    nama: "Kusuma Wijaya",
-    posisi: "Security Engineer / Pentester",
+    nama: "Nanda Pratama",
+    posisi: "Security Researcher / Pentester",
     domisili: "Yogyakarta, Indonesia",
     pendidikan: "Universitas Amikom Yogyakarta",
     prodi: "S1 Informatika",
-    semester: "6",
+    semester: "7",
   },
   welcome: "Selamat datang di portofolio saya!",
   headingSmall: "Halo, Saya",
-  headingBig: "Kusuma Wijaya",
+  headingBig: "Nanda Pratama",
   desc:
-    "Spesialis Security yang fokus pada pengujian Web App & API, serta pemetaan attack surface (OSINT) secara metodologis.",
+    "Spesialis Security yang fokus pada pengujian Web App & Security Researcher, serta pemetaan attack surface (OSINT) secara metodologis.",
   tags: ["OWASP", "API Security", "OSINT", "Burp Suite", "nuclei", "nmap", "Linux"],
   cta1: { label: "Hubungi Saya", href: "#contact" },
   cta2: { label: "Lihat Proyek", href: "#projects" },
@@ -81,9 +81,9 @@ export const projects = {
       github: "https://github.com/username/api-security-checklist",
     },
     {
-      name: "Pentest Report Template",
+      name: "Pentest Report",
       desc:
-        "Template laporan pentest yang menekankan impact, reproduksi, dan mitigasi prioritas.",
+        "laporan pentest yang menekankan impact, reproduksi, dan mitigasi prioritas.",
       tags: ["Markdown", "CVSS", "Evidence"],
       demo: "https://example.com",
       github: "https://github.com/username/pentest-report-template",
@@ -96,17 +96,17 @@ export const projects = {
 export const contact = {
   title: "// Hubungi Saya",
   terminalTitle: "contact.sh",
-  email: "you@email.com",
-  whatsapp: "+62 8xx-xxxx-xxxx",
+  email: "info.alexsyubarjo@gmail.com",
+  whatsapp: "+62 878-0571-8296",
   domisili: "Yogyakarta, Indonesia",
-  ketersediaan: "Bersedia untuk freelance dan kolaborasi.",
+  ketersediaan: "Security Researcher /Pentester /Bug HUNTER.",
   echo: "Ayo Terhubung",
   socials: [
-    { name: "LinkedIn", href: "https://linkedin.com/in/username" },
-    { name: "GitHub", href: "https://github.com/username" },
-    { name: "Instagram", href: "https://instagram.com/username" },
-    { name: "WhatsApp", href: "https://wa.me/628xxxxxxxxxx" },
-    { name: "Email", href: "mailto:you@email.com" },
+    { name: "LinkedIn", href: "https://linkedin.com/in/nanda-pratama07" },
+    { name: "GitHub", href: "https://github.com/alexsyubarjo" },
+    { name: "Instagram", href: "https://instagram.com/alex_syubarjo" },
+    { name: "WhatsApp", href: "https://wa.me/6287805718296" },
+    { name: "Email", href: "mailto:info.alexsyubarjo@gmail.com" },
   ],
-  footerRole: "Security Engineer / Pentester",
+  footerRole: "Security Researcher / Pentester",
 };
