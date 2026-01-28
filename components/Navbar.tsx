@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-6 py-5 flex items-center justify-between">
         <a href="#home" className="text-xl font-semibold tracking-tight">
           <span className="text-white">&lt;</span>
-          <span className="text-accent-600">SEC</span>
+          <span className="text-accent-600">Nanda Sec</span>
           <span className="text-white">/&gt;</span>
         </a>
 
