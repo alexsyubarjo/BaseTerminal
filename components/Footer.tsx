@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="text-xl font-semibold tracking-tight">
             <span className="text-white">&lt;</span>
-            <span className="text-accent-600">SEC</span>
+            <span className="text-accent-600">Nanda Sec</span>
             <span className="text-white">/&gt;</span>
           </div>
           <div className="mt-3 text-white/60">{contact.footerRole}</div>
